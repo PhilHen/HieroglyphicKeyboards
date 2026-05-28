@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<keyboard3 xmlns="https://schemas.unicode.org/cldr/45/keyboard3" locale="egy-Egyp"
+  conformsTo="46" >
+
+  <transforms type="simple">
+  
+        <!-- ✅ Get the French dead keys ^and ¨ to work --> 
+        <transformGroup>    
+            <transform from="\m{circ_marker}a" to="â" />
+            <transform from="\m{circ_marker}e" to="ê" />
+            <transform from="\m{circ_marker}i" to="î" />
+            <transform from="\m{circ_marker}o" to="ô" />
+            <transform from="\m{circ_marker}u" to="û" />
+            <transform from="\m{trema_marker}a" to="ä" />
+            <transform from="\m{trema_marker}e" to="ë" />
+            <transform from="\m{trema_marker}i" to="ï" />
+            <transform from="\m{trema_marker}o" to="ö" />
+            <transform from="\m{trema_marker}u" to="ü" />
+        </transformGroup>
+
+        <!-- ✅A few cycles -->
+        <transformGroup>
+            <transform from="\u{132BD}\m{C}" to="\u{13193}\u{13433}\u{130A7}" />  <!-- Djed pillar to verb 'to say' -->
+            <transform from="\u{13193}\u{13433}\u{130A7}\m{C}" to="\u{132BD}" />  <!-- verb "to say" to Djed pillar -->
+            <transform from="\u{1327B}\m{C}"   to="\u{1327B}\u{FE00}" />          <!-- column O29 to O29v -->
+            <transform from="\u{1327B}\u{FE00}\m{C}"   to="\u{1327B}" />          <!-- O29v to O29 -->
+        </transformGroup>
+
+        <!-- ✅Some extras -->
+        <transformGroup>
+			<transform from="nty\m{C}" to ="\u{13216}\u{13430}\u{133CF}\u{13431}\u{133ED}" />   <!-- abréviation sympa-->
+            <transform from="\u{00A0}:\m{C}"   to="\u{13430}" /> <!-- Word in French will transform ";" into "\u{00A0},", i.e. inserting a non breaking space -->
+        </transformGroup>
+  </transforms>
+</keyboard3>

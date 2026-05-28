@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<keyboard3 xmlns="https://schemas.unicode.org/cldr/45/keyboard3" locale="egy-Egyp"
+  conformsTo="46" >
+  <!-- conformsTo="47" draft="contributed" > -->
+  <info author="Andrew Glass (modded by Philippe Hennebert)" name="Egyptian Hieroglyphic (AZERTY)"
+    layout="AZERTY" indicator="\u{13153}" />
+  <version number="1.1.0"/>
+
+  <keys>
+    <import base="cldr" path="47/keys-Zyyy-punctuation.xml"/>
+    <import base="cldr" path="47/keys-Zyyy-currency.xml"/>
+
+    <!-- gap -->
+      <key id="gap" gap="true" width="1" />
+
+    <!-- letters -->
+      <key id="Ayin" output="\m{Ayin}"/> 
+      <key id="ayin" output="\m{ayin}"/> 
+      <key id="Alef" output="\m{Alef}"/>
+      <key id="alef" output="\m{alef}"/>
+      <key id="Yod" output="Ꞽ"/>
+      <key id="yod" output="ꞽ"/>
+      <key id="Dunderbar" output="Ḏ"/>
+      <key id="dunderbar" output="ḏ"/>
+      <key id="AltH" output="\m{AltH}"/>
+      <key id="Alth" output="\m{Alth}"/>
+      <key id="Kunderdot" output="Ḳ"/>
+      <key id="kunderdot" output="ḳ"/>
+      <key id="Scaron" output="Š"/>
+      <key id="scaron" output="š"/>
+      <key id="Tunderbar" output="Ṯ"/>
+      <key id="tunderbar" output="ṯ"/>
+      <key id="middledot" output="·"/>
+      <key id="eaigu" output="é"/>
+      <key id="egrave" output="è"/>
+      <key id="ugrave" output="ù"/>
+      <key id="exclam" output="!"/>
+      <key id="parag" output="§"/>
+      <key id="ccedille" output="ç"/>
+      <key id="agrave" output="à"/>
+      <key id="exp2" output="²"/>
+      <key id="exp3" output="³"/>
+      <key id="mu" output="µ"/>
+      <key id="ugrave" output="ù"/>
+      <key id="expo" output="°"/>
+      <key id="pound" output="£"/>
+      <key id="hround" output="ḫ"/>
+      <key id="Hround" output="Ḫ"/>
+      <key id="hbar" output="ẖ"/>
+      <key id="Hbar" output=""/>
+  
+    <!-- markers -->
+      <key id="convert"   output="\m{C}"/>        <!-- Convert into Hieroglyphs -->
+      <key id="reconvert" output="\m{R}"/>        <!-- Convert from Hieroglyph to Gardiner -->
+      <key id="phconvert" output="\m{P}"/>        <!-- Convert from Hieroglyph to Phonetic -->
+      <key id="prevh"     output="\m{Previous}"/> <!-- Convert to previous heiroglyph -->
+      <key id="nexth"     output="\m{Next}"/>     <!-- Convert to next heiroglyph -->
+      <key id="prevg"     output="\m{PrvG}"/>     <!-- Jump to previous group -->
+      <key id="nextg"     output="\m{NxtG}"/>     <!-- Jump to next group -->
+      <key id="rotate"    output="\m{rotate}"/>   <!-- Rotational control -->
+      <key id="close"     output="\m{close}"/>
+      <key id="open"      output="\m{open}"/>
+      <key id="tcub"      output="\m{tcub}"/> 
+      <key id="tcue"      output="\m{tcue}"/>
+      <key id="tcab"      output="\m{tcab}"/>
+      <key id="tcae"      output="\m{tcae}"/>
+      <key id="tcrb"      output="\m{tcrb}"/>
+      <key id="tcre"      output="\m{tcre}"/>
+      <key id="trema"     output="\m{trema_marker}"/>
+      <key id="circ"      output="\m{circ_marker}"/>
+  </keys>
+
+  <layers formId="iso">
+    <layer modifiers="none">
+      <row keys="exp2 amp eaigu double-quote apos open-paren parag egrave exclam ccedille agrave close-paren hyphen"/>
+      <row keys="a z e r t y u i o p circ dollar"/>
+      <row keys="q s d f g h j k l m ugrave"/>
+      <row keys="open-angle w x c v b n comma semi-colon colon equal"/>
+      <row keys="convert"/>
+    </layer>
+    <layer modifiers="shift">
+      <row keys="exp3 1 2 3 4 5 6 7 8 9 0 expo underscore"/>
+      <row keys="A Z E R T Y U I O P trema asterisk"/>
+      <row keys="Q S D F G H J K L M percent"/>
+      <row keys="close-angle W X C V B N question period slash plus"/>
+      <row keys="space"/>
+    </layer>
+    <layer modifiers="caps">
+      <row keys="exp3 1 2 3 4 5 6 7 8 9 0 expo underscore"/>
+      <row keys="A Z E R T Y U I O P trema asterisk"/>
+      <row keys="Q S D F G H J K L M percent"/>
+      <row keys="close-angle W X C V B N question period slash plus"/>
+      <row keys="convert"/>
+    </layer>
+    <layer modifiers="shift caps">
+      <row keys="exp3 1 2 3 4 5 6 7 8 9 0 expo underscore"/>
+      <row keys="A Z E R T Y U I O P trema asterisk"/>
+      <row keys="Q S D F G H J K L M percent"/>
+      <row keys="close-angle W X C V B N question period slash plus"/>
+      <row keys="space"/>
+    </layer>
+    <layer modifiers="altR">
+      <row keys="gap gap gap gap gap gap gap gap gap open close prevh nexth"/>
+      <row keys="alef gap gap gap tunderbar gap gap yod gap gap tcub tcue"/>
+      <row keys="gap scaron dunderbar gap gap Alth gap kunderdot gap gap ayin"/>
+      <row keys="gap gap gap gap gap gap gap tcab tcae gap"/>
+      <row keys="reconvert"/>
+    </layer>
+    <layer modifiers="shift altR">
+      <row keys="gap gap gap gap gap gap gap gap gap open close prevh nexth"/>
+      <row keys="Alef gap gap gap Tunderbar gap gap Yod gap gap tcrb tcre"/>
+      <row keys="gap Scaron Dunderbar gap gap AltH gap Kunderdot gap gap Ayin"/>
+      <row keys="gap gap gap gap gap gap gap prevg nextg rotate"/>
+      <row keys="phconvert"/>
+    </layer>
+  </layers>
+</keyboard3>
