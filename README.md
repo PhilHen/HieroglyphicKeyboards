@@ -19,6 +19,7 @@ Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format contro
 What follows is based on the Azerty Belgian keyboard layout. 
 * \+ means keypresses are simultaneous
 * "then" means keypresses are successive
+* key combinations in the same cell of the table are alternatives producing the same result
 
 ## Gardiner signs
 
