@@ -17,8 +17,8 @@ Current version supports :
 # How does it work?
 Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format controls ( https://unicode.org/charts/PDF/U13430.pdf ), the keystrokes listed below act on the character (latin or hieroglyphic) immediately preceding the cursor.
 What follows is based on the Azerty Belgian keyboard layout. 
-* \+ means simultaneous keypresses
-* "then" means successive keypresses
+* \+ means keypresses are simultaneous
+* "then" means keypresses are successive
 
 ## Gardiner signs
 
@@ -35,7 +35,7 @@ What follows is based on the Azerty Belgian keyboard layout.
 In general, individual signs can be entered:
 * using their Gardiner code followed by \<SPACE\> (in some cases, hitting \<SPACE\> more than once lets one access variants)
 * variants are usually referred using the "O29a" convention
-* using [phonetic shortcuts](Jsesh_phonetic_shortcuts.html), cycling using \<SPACE\>. These phonetic shortcuts have been extracted from JSesh. 
+* using [phonetic shortcuts](https://htmlpreview.github.io/?https://github.com/PhilHen/HieroglyphicKeyboards/blob/main/Jsesh_phonetic_shortcuts.html), cycling using \<SPACE\>. These phonetic shortcuts have been extracted from JSesh. 
   
 ## Brackets
 | Keyboard keys (azerty be) | Result |
