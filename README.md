@@ -21,7 +21,7 @@ Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format contro
 
 | Keyboard keys | Result |
 | --- | --- |
-| A1 <SPACE> | 𓀀 |
+| A1 \<SPACE\> | 𓀀 |
 | <ALTGR>+<SPACE> | Convert hieroglyphic sign to Gardiner code |
 | <ALTGR>+) | Previous sign (preceding sign must be a hieroglyph) |
 | <ALTGR>+- | Next sign (preceding sign must be a hieroglyph) |
