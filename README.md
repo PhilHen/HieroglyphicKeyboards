@@ -97,5 +97,6 @@ TO DO:
 * mirror
 * cartouche / enclosure 
 * numbers
+* rotations
 
 
