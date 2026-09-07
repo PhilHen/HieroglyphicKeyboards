@@ -67,7 +67,7 @@ TO DO:
 * transliteration
 * blank signs/lacunae
 * damage modifiers
-  [someimage](https://github.com/PhilHen/HieroglyphicKeyboards/blob/main/images/4quadrants.png?raw=true)
+  [someimage](https://raw.githubusercontent.com/PhilHen/HieroglyphicKeyboards/refs/heads/main/images/4quadrants.png)
 * mirror
 * cartouche / enclosure
 * 
