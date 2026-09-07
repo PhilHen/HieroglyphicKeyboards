@@ -13,12 +13,12 @@ Current version supports :
 # Installation
 * If there is a .kmp file matching your physical keyboard in the [keyboards](https://github.com/PhilHen/HieroglyphicKeyboards/tree/main/keyboards) folder, download that file and use keyman to install it on your system (keyman should be the default handler for .kmp file). Currently this is only applicable to the Belgian "azerty be" layout.
 * Otherwise
-   1 download the entire cldrbuilder folder with subfolders from this repository
-   1 modify the xml file sources/localized.xml according to your needs
-   1 modify the global constants in code/buildCldrHiero.py (if needed)
-   1 run code/buildCldrHiero.py , which will generate an xml file in the output folder
-   1 open keyman developer (windows only), new project, LDML Keyboard - paste the generated xml file
-   1 compile and install
+   * download the entire cldrbuilder folder with subfolders from this repository
+   * modify the xml file sources/localized.xml according to your needs
+   * modify the global constants in code/buildCldrHiero.py (if needed)
+   * run code/buildCldrHiero.py , which will generate an xml file in the output folder
+   * open keyman developer (windows only), new project, LDML Keyboard - paste the generated xml file
+   * compile and install
 
 It IS possible to build the keyboard on a linux or apple computer, using [keyman developer command tools](https://help.keyman.com/developer/14.0/guides/command-line)
   
