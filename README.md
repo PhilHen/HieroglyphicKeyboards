@@ -59,7 +59,8 @@ See https://unicode.org/charts/PDF/U13430.pdf
 | \<v\> then \<SPACE\><br/>/vj then \<SPACE\><br/>vj/ then \<SPACE\><br/> vj then \<SPACE\><br/>\<:\> then \<SPACE\>|vertical joiner (":" in JSesh, "subordination" in MdC)|
 | \<c\> then \<SPACE\><br/>/hj then \<SPACE\><br/>hj/ then \<SPACE\><br/> hj then \<SPACE\><br/>\<*\> then \<SPACE\>|horizontal joiner ("*" in JSesh, "juxtaposition" in MdC)|
 | \<c\> then \<SPACE\><br/>/hj then \<SPACE\><br/>hj/ then \<SPACE\><br/> hj then \<SPACE\><br/>\<*\> then \<SPACE\>|horizontal joiner ("*" in JSesh, "juxtaposition" in MdC)|
-| ss then \<SPACE\><br/>/ss then \<SPACE\><br/>ss/ then \<SPACE\><br/> hj then \<SPACE\><br/>\<ALTGR\> + \<ç\>|begin segment (gives control over sequence of application of format controls)|
+| ss then \<SPACE\><br/>/ss then \<SPACE\><br/>ss/ then \<SPACE\><br/>\<ALTGR\> + \<ç\>|begin segment (gives control over sequence of application of format controls)|
+| se then \<SPACE\><br/>/se then \<SPACE\><br/>se/ then \<SPACE\><br/>\<ALTGR\> + \<à\>|end segment (gives control over sequence of application of format controls)|
 
 
 
