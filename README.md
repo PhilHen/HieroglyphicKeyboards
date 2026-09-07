@@ -61,6 +61,10 @@ See https://unicode.org/charts/PDF/U13430.pdf
 | ss then \<SPACE\><br/>/ss then \<SPACE\><br/>ss/ then \<SPACE\><br/>\<ALTGR\> + \<ç\>|begin segment (gives control over the sequence of application of format controls)|
 | se then \<SPACE\><br/>/se then \<SPACE\><br/>se/ then \<SPACE\><br/>\<ALTGR\> + \<à\>|end segment (gives control over the sequence of application of format controls)|
 
+Inserts can be done at 7 positions, as illustrated below. Note that it is preferred to use the mi/ syntax, since other syntaxes may collide with phonetic sign abreviations (e.g. mi = 𓏇)
+ <img src="https://raw.githubusercontent.com/PhilHen/HieroglyphicKeyboards/refs/heads/main/images/4quadrants.png"  />
+
+
 TO DO:
 * other format controls
 * transliteration
@@ -71,6 +75,6 @@ TO DO:
  
 * mirror
 * cartouche / enclosure 
-
+* numbers
 
 
