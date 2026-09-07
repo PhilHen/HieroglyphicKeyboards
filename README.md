@@ -16,36 +16,36 @@ Current version supports :
 
 # How does it work?
 Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format controls ( https://unicode.org/charts/PDF/U13430.pdf ), the keystrokes listed below act on the character (latin or hieroglyphic) immediately preceding the cursor.
+What follows is based on the Azerty Belgian keyboard layout. 
 
 ## Gardiner signs
 
-| Keyboard keys | Result |
+| Keyboard keys (azerty be) | Result |
 | --- | --- |
 | A1 \<SPACE\> | 𓀀 |
-| \<ALTGR\>+\<SPACE\> | Convert hieroglyphic sign to Gardiner code |
-| \<ALTGR\>+) | Previous sign (preceding sign must be a hieroglyph) |
-| \<ALTGR\>+- | Next sign (preceding sign must be a hieroglyph) |
-| \<SHIFT\>+\<ALTGR\>+, | Previous Gardiner group (preceding sign must be a hieroglyph) |
-| \<SHIFT\>+\<ALTGR\>+; | Next Gardiner group (preceding sign must be a hieroglyph) |
+| \<ALTGR\> + \<SPACE\> | Convert hieroglyphic sign to Gardiner code |
+| \<ALTGR\> + \<)\> | Previous sign (preceding sign must be a hieroglyph) |
+| \<ALTGR\> + \<-\> | Next sign (preceding sign must be a hieroglyph) |
+| \<SHIFT\> + \<ALTGR\> + \<,\> | Previous Gardiner group (preceding sign must be a hieroglyph) |
+| \<SHIFT\> + \<ALTGR\> + \<;\> | Next Gardiner group (preceding sign must be a hieroglyph) |
 
 In general, individual signs can be entered:
 * using their Gardiner code followed by \<SPACE\> (in some cases, hitting \<SPACE\> more than once lets one access variants)
 * variants are usually referred using the "O29a" convention
 * using [phonetic shortcuts](Jsesh_phonetic_shortcuts.html), cycling using \<SPACE\>. These phonetic shortcuts have been extracted from JSesh. 
   
-
-## Transliteration
-
-| Keyboard keys | Result |
+## Brackets
+| Keyboard keys (azerty be) | Result |
 | --- | --- |
-| <ALTGR>+a | ꜣ |
-| <ALTGR>+d | ḏ |
-| <ALTGR>+h | ḥ |
-| <ALTGR>+k | ḳ |
-| <ALTGR>+i | ꞽ |
-| <ALTGR>+s | š |
-| <ALTGR>+t | ṯ |
-| <ALTGR>+ù𓏤 (azerty be) | ꜥ |
+| \<ALTGR\> + \<^\>|⸢ TOP LEFT HALF BRACKET|
+| \<ALTGR\> + \<$\>|⸣ TOP RIGHT HALF BRACKET|
+| stuff 1 <br/> stuff 2|explanation|
 
-Corresponding uppercase transliteration characters can be obtained with <SHIFT>.
+            <transform from="\m{tcub}" to="\u{2E22}" />  <!-- ⸢ TOP LEFT HALF BRACKET -->
+            <transform from="\m{tcue}" to="\u{2E23}" />  <!-- ⸣ TOP RIGHT HALF BRACKET -->
+            <transform from="\m{tcab}" to="\u{27E8}" />  <!-- ⟨ MATHEMATICAL LEFT ANGLE BRACKET -->
+            <transform from="\m{tcae}" to="\u{27E9}" />  <!-- ⟩ MATHEMATICAL RIGHT ANGLE BRACKET -->
+            <transform from="\m{tcrb}" to="\u{27E6}" />  <!-- ⟦ MATHEMATICAL LEFT WHITE SQUARE BRACKET -->
+            <transform from="\m{tcre}" to="\u{27E7}" />  <!-- ⟧ MATHEMATICAL RIGHT WHITE SQUARE BRACKET -->
+
 
