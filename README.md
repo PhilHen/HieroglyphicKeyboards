@@ -88,7 +88,7 @@ Inserts can be done at 7 positions, as illustrated below. Note that it is prefer
 
 ## Blank, lost and damaged signs
 
-### Blank signs
+### Blanks
 | Keyboard keys (azerty be) | Result |
 | --- | --- |
 | _ then \<SPACE\><br/>bf then \<SPACE<br/>/bf then \<SPACE\><br/>bf/ then \<SPACE\>|Blank Full size|
