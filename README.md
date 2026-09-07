@@ -97,6 +97,8 @@ Inserts can be done at 7 positions, as illustrated below. Note that it is prefer
 
 ### Lost signs
 
+TO BE COMPLETED
+
 ### Damaged signs
 Signs are shaded quarter by quarter. Quarters are numbered 1 to 4 (see image below)
 
@@ -106,7 +108,7 @@ In order to shade quarters 1, 2 and 4 of sign A1, you can
  * either A1 \<SPACE\> /124 \<SPACE\>
  * or A1 \<SPACE\> /1 \<SPACE\> /2 \<SPACE\> /4 \<SPACE\> (or any other sequence).
 
-Please note shading applies to quarters of the sign that precedes the cursor, not the quadrat.
+Please note shading applies to quarters of the sign that precedes the cursor, not the whole quadrat.
 
 
 
@@ -114,10 +116,6 @@ Please note shading applies to quarters of the sign that precedes the cursor, no
 
 TO DO:
 * transliteration
-* blank signs/lacunae
-* damage modifiers
-
- 
 * mirror
 * cartouche / enclosure 
 * rotations
