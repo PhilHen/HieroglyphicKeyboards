@@ -65,6 +65,8 @@ Inserts can be done at 7 positions, as illustrated below. Note that it is prefer
 
  <img src="https://raw.githubusercontent.com/PhilHen/HieroglyphicKeyboards/refs/heads/main/images/inserts.png"  />
 
+| Keyboard keys (azerty be) | Result |
+| --- | --- |
 | ts then \<SPACE\><br/>/ts then \<SPACE\><br/>ts/ then \<SPACE\>|insert the sign that follows at the top start (i.e. top left if writing left-to-right) of the sign that precedes the cursor|
 | /ti then \<SPACE\><br/>ti/ then \<SPACE\>|insert the sign that follows at the top of the sign that precedes the cursor|
 | te then \<SPACE\><br/>/te then \<SPACE\><br/>te/ then \<SPACE\>|insert the sign that follows at the top end (i.e. top right if writing left-to-right) of the sign that precedes the cursor|
