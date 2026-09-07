@@ -1,5 +1,5 @@
 # HieroglyphicKeyboards
-Set of tools to facilitate the creation of keyman hieroglyphic keyboards (based on Andrew Glass' qwerty hieroglyphic keyboard)
+Set of tools to facilitate the creation of keyman hieroglyphic keyboards (based on Andrew Glass' qwerty hieroglyphic keyboard - the tools in this repository only slightly expand and internationalize Andrew's work)
 Current version supports :
 * creating keyboards based on non-qwerty layouts (for instance Belgian azerty)
 * using JSesh-cycles based on phonetic shortcuts (such as aA -> 𓉻->𓃘 -> 𓉼 -> 𓉿 -> 𓉻 )
