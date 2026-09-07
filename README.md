@@ -10,11 +10,13 @@ Current version supports :
 * "Egyptian Text" font to be found at https://github.com/microsoft/font-tools/
 * keyman ( https://keyman.com/ ) - compatible with Mac, Windows & Linux
 
-# Installing
+# Installation
 * If there is a .kmp file matching your physical keyboard in the [keyboards](https://github.com/PhilHen/HieroglyphicKeyboards/tree/main/keyboards) folder, download that file and use keyman to install it on your system (keyman should be the default handler for .kmp file). Currently this is only applicable to the Belgian azerty be layout.
 * Otherwise, download the cldrbuilder, modify sources/localized.xml according to your needs, modify the global constants in code/buildCldrHiero.py and run that python script. Then copy the resulting xml in a CLDR keyman-developer project, compile and install
 
-# Using
+# How to use the keyboard
+Once the keyboard is installed, switch to that keyboard (refer to the [keyman documentation](https://help.keyman.com/)).
+
 Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format controls ( https://unicode.org/charts/PDF/U13430.pdf ), the keystrokes listed below act on the character (latin or hieroglyphic) immediately preceding the cursor.
 What follows is based on the Azerty Belgian keyboard layout. 
 * \+ means keypresses are simultaneous
