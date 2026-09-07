@@ -91,7 +91,7 @@ Inserts can be done at 7 positions, as illustrated below. Note that it is prefer
 ### Blanks
 | Keyboard keys (azerty be) | Result |
 | --- | --- |
-| _ then \<SPACE\><br/>bf then \<SPACE<br/>/bf then \<SPACE\><br/>bf/ then \<SPACE\>|Blank Full size|
+| _ then \<SPACE\><br/>bf then \<SPACE\><br/>/bf then \<SPACE\><br/>bf/ then \<SPACE\>|Blank Full size|
 | bq then \<SPACE\><br/>/bq then \<SPACE\><br/>bq/ then \<SPACE\><br/>/bh then \<SPACE\><br/>bh/ then \<SPACE\>|Blank Quarter size = Blank Half size|
 
 
@@ -110,14 +110,21 @@ In order to shade quarters 1, 2 and 4 of sign A1, you can type
 
 Please note shading applies to quarters of the sign that precedes the cursor, not the whole quadrat.
 
+# Cartouches
 
+| Keyboard keys (azerty be) | Result |
+| --- | --- |
+| cb then \<SPACE\><br/>/cb then \<SPACE\>cb/ then \<SPACE\><br/>cb/ then \<SPACE\>|Cartouche Beginning - cartouche is continued over the next signs|
+| cbx then \<SPACE\><br/>/cb then \<SPACE\>cbx/ then \<SPACE\><br/>cbx/ then \<SPACE\>|Cartouche Beginning - cartouche is NOT continued over the next signs|
+TO BE COMPLETED
 
+𓉚
 
+# Transliteration
 
-TO DO:
-* transliteration
-* mirror
-* cartouche / enclosure 
-* rotations
+TO BE COMPLETED
 
+# Mirroring and rotation
+
+TO BE COMPLETED
 
