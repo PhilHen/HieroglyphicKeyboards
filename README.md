@@ -19,6 +19,8 @@ Once the keyboard is installed, switch to that keyboard (refer to the [keyman do
 
 Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format controls (see below), the keystrokes listed below act on the character (latin or hieroglyphic) immediately preceding the cursor.
 What follows is based on the Azerty Belgian keyboard layout. 
+*\<v\> means the key "v"
+* abc means the text abc, typed in the usual manner
 * \+ means keypresses are simultaneous
 * "then" means keypresses are successive
 * key combinations in the same cell of the table are alternatives producing the same result
@@ -53,7 +55,7 @@ In general, individual signs can be entered:
 # Format controls
 | Keyboard keys (azerty be) | Result |
 | --- | --- |
-| <v> then \<SPACE\><br/>vj/ then \<SPACE\><br/> vj then \<SPACE\><br/>\<:\> then \<SPACE\>|vertical joiner (":" in JSesh)|
+| \<v\> then \<SPACE\><br/>vj/ then \<SPACE\><br/> vj then \<SPACE\><br/>\<:\> then \<SPACE\>|vertical joiner (":" in JSesh)|
 
 
 
