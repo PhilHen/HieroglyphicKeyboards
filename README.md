@@ -91,6 +91,9 @@ Inserts can be done at 7 positions, as illustrated below. Note that it is prefer
 ### Blank signs
 | Keyboard keys (azerty be) | Result |
 | --- | --- |
+| _ then \<SPACE\><br/>bf then \<SPACE<br/>/bf then \<SPACE\><br/>bf/ then \<SPACE\>|Blank - Full size|
+| bq then \<SPACE\><br/>/bq then \<SPACE\><br/>bq/ then \<SPACE\><br/>/bh then \<SPACE\><br/>bh/ then \<SPACE\>|Blank - Quarter size = Blank - Half size|
+
 
 ### Lost signs
 
