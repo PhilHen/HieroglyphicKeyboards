@@ -62,11 +62,20 @@ See https://unicode.org/charts/PDF/U13430.pdf
 | se then \<SPACE\><br/>/se then \<SPACE\><br/>se/ then \<SPACE\><br/>\<ALTGR\> + \<à\>|end segment (gives control over the sequence of application of format controls)|
 
 Inserts can be done at 7 positions, as illustrated below. Note that it is preferred to use the mi/ syntax (with a forward slash at the end /), since other syntaxes may collide with phonetic sign abreviations (e.g. mi = 𓏇)
+
  <img src="https://raw.githubusercontent.com/PhilHen/HieroglyphicKeyboards/refs/heads/main/images/inserts.png"  />
+
+| ts then \<SPACE\><br/>/ts then \<SPACE\><br/>ts/ then \<SPACE\>|insert the sign that follows at the top start (i.e. top left if writing left-to-right) of the sign that precedes the cursor|
+| /ti then \<SPACE\><br/>ti/ then \<SPACE\>|insert the sign that follows at the top of the sign that precedes the cursor|
+| te then \<SPACE\><br/>/te then \<SPACE\><br/>te/ then \<SPACE\>|insert the sign that follows at the top end (i.e. top right if writing left-to-right) of the sign that precedes the cursor|
+| /mi then \<SPACE\><br/>mi/ then \<SPACE\>|insert the sign that follows at the middle of the sign that precedes the cursor|
+| /bs then \<SPACE\><br/>bs/ then \<SPACE\>|insert the sign that follows at the bottom start (i.e. bottom left if writing left-to-right) of the sign that precedes the cursor|
+| /mi then \<SPACE\><br/>mi/ then \<SPACE\>|insert the sign that follows at the bottom of the sign that precedes the cursor|
+| be then \<SPACE\><br/>/be then \<SPACE\><br/>be/ then \<SPACE\>|insert the sign that follows at the bottom end (i.e. bottom right if writing left-to-right) of the sign that precedes the cursor|
+| om then \<SPACE\><br/>/om then \<SPACE\><br/>om/ then \<SPACE\>|overla𓏭(stack) the sign that follows over the sign that precedes the cursor|
 
 
 TO DO:
-* other format controls
 * transliteration
 * blank signs/lacunae
 * damage modifiers
