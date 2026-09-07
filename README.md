@@ -52,7 +52,7 @@ In general, individual signs can be entered:
 | \<SHIFT\> + \<ALTGR\> + \<^\>|⟦ MATHEMATICAL LEFT WHITE SQUARE BRACKET|
 | \<SHIFT\> + \<ALTGR\> + \<$\>|⟧ MATHEMATICAL RIGHT WHITE SQUARE BRACKET|
 
-# Format controls
+## Format controls
 See https://unicode.org/charts/PDF/U13430.pdf 
 | Keyboard keys (azerty be) | Result |
 | --- | --- |
@@ -68,9 +68,10 @@ TO DO:
 * blank signs/lacunae
 * damage modifiers
  <img src="https://raw.githubusercontent.com/PhilHen/HieroglyphicKeyboards/refs/heads/main/images/4quadrants.png"  />
+
+ 
 * mirror
-* cartouche / enclosure
-* 
+* cartouche / enclosure 
 
 
 
