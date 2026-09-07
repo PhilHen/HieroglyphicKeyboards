@@ -8,6 +8,6 @@ Current version supports :
 
 # Requirements
 * "Egyptian Text" font to be found at https://github.com/microsoft/font-tools/
-* keyman ( https://keyman.com/fr/ )
+* keyman ( https://keyman.com/fr/ ) - compatible with Mac, Windows & Linux
 
 
