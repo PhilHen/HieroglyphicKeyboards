@@ -53,9 +53,13 @@ In general, individual signs can be entered:
 | \<SHIFT\> + \<ALTGR\> + \<$\>|⟧ MATHEMATICAL RIGHT WHITE SQUARE BRACKET|
 
 # Format controls
+See https://unicode.org/charts/PDF/U13430.pdf 
 | Keyboard keys (azerty be) | Result |
 | --- | --- |
-| \<v\> then \<SPACE\><br/>/vj then \<SPACE\><br/>vj/ then \<SPACE\><br/> vj then \<SPACE\><br/>\<:\> then \<SPACE\><br/>\<:\> then \<SPACE\>|vertical joiner (":" in JSesh)|
+| \<v\> then \<SPACE\><br/>/vj then \<SPACE\><br/>vj/ then \<SPACE\><br/> vj then \<SPACE\><br/>\<:\> then \<SPACE\>|vertical joiner (":" in JSesh, "subordination" in MdC)|
+| \<c\> then \<SPACE\><br/>/hj then \<SPACE\><br/>hj/ then \<SPACE\><br/> hj then \<SPACE\><br/>\<*\> then \<SPACE\>|horizontal joiner ("*" in JSesh, "juxtaposition" in MdC)|
+| \<c\> then \<SPACE\><br/>/hj then \<SPACE\><br/>hj/ then \<SPACE\><br/> hj then \<SPACE\><br/>\<*\> then \<SPACE\>|horizontal joiner ("*" in JSesh, "juxtaposition" in MdC)|
+| ss then \<SPACE\><br/>/ss then \<SPACE\><br/>ss/ then \<SPACE\><br/> hj then \<SPACE\><br/>\<ALTGR\> + \<ç\>|begin segment (gives control over sequence of application of format controls)|
 
 
 
