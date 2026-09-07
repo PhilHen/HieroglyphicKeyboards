@@ -17,7 +17,7 @@ Current version supports :
 # How to use the keyboard
 Once the keyboard is installed, switch to that keyboard (refer to the [keyman documentation](https://help.keyman.com/)).
 
-Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format controls ( https://unicode.org/charts/PDF/U13430.pdf ), the keystrokes listed below act on the character (latin or hieroglyphic) immediately preceding the cursor.
+Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format controls (see below), the keystrokes listed below act on the character (latin or hieroglyphic) immediately preceding the cursor.
 What follows is based on the Azerty Belgian keyboard layout. 
 * \+ means keypresses are simultaneous
 * "then" means keypresses are successive
@@ -49,5 +49,11 @@ In general, individual signs can be entered:
 | \<ALTGR\> + \<;\>|⟩ MATHEMATICAL RIGHT ANGLE BRACKET|
 | \<SHIFT\> + \<ALTGR\> + \<^\>|⟦ MATHEMATICAL LEFT WHITE SQUARE BRACKET|
 | \<SHIFT\> + \<ALTGR\> + \<$\>|⟧ MATHEMATICAL RIGHT WHITE SQUARE BRACKET|
+
+# Format controls
+| Keyboard keys (azerty be) | Result |
+| --- | --- |
+| <v> then \<SPACE\><br/>vj/ then \<SPACE\><br/> vj then \<SPACE\><br/>\<:\> then \<SPACE\>|vertical joiner (":" in JSesh)|
+
 
 
