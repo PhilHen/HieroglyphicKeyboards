@@ -22,15 +22,16 @@ Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format contro
 | Keyboard keys | Result |
 | --- | --- |
 | A1 \<SPACE\> | 𓀀 |
-| <ALTGR>+<SPACE> | Convert hieroglyphic sign to Gardiner code |
-| <ALTGR>+) | Previous sign (preceding sign must be a hieroglyph) |
-| <ALTGR>+- | Next sign (preceding sign must be a hieroglyph) |
-| <SHIFT>+<ALTGR>+, | Previous Gardiner group (preceding sign must be a hieroglyph) |
-| <SHIFT>+<ALTGR>+; | Next Gardiner group (preceding sign must be a hieroglyph) |
+| \<ALTGR\>+\<SPACE\> | Convert hieroglyphic sign to Gardiner code |
+| \<ALTGR\>+) | Previous sign (preceding sign must be a hieroglyph) |
+| \<ALTGR\>+- | Next sign (preceding sign must be a hieroglyph) |
+| \<SHIFT\>+\<ALTGR\>+, | Previous Gardiner group (preceding sign must be a hieroglyph) |
+| \<SHIFT\>+\<ALTGR\>+; | Next Gardiner group (preceding sign must be a hieroglyph) |
 
 In general, individual signs can be entered:
-* using their Gardiner code followed by <SPACE> (in some cases, hitting <SPACE> more than once lets one access variants)
-* using [phonetic shortcuts](Jsesh_phonetic_shortcuts.html), cycling using <SPACE>. These phonetic shortcuts have been extracted from JSesh. 
+* using their Gardiner code followed by \<SPACE\> (in some cases, hitting \<SPACE\> more than once lets one access variants)
+* variants are usually referred using the "O29a" convention
+* using [phonetic shortcuts](Jsesh_phonetic_shortcuts.html), cycling using \<SPACE\>. These phonetic shortcuts have been extracted from JSesh. 
   
 
 ## Transliteration
@@ -46,5 +47,5 @@ In general, individual signs can be entered:
 | <ALTGR>+t | ṯ |
 | <ALTGR>+ù𓏤 (azerty be) | ꜥ |
 
-Corresponding uppercase glyphs can be obtained with <SHIFT>.
+Corresponding uppercase transliteration characters can be obtained with <SHIFT>.
 
