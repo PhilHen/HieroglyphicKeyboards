@@ -13,7 +13,7 @@ Current version supports :
 # Installation
 * If there is a .kmp file matching your physical keyboard in the [keyboards](https://github.com/PhilHen/HieroglyphicKeyboards/tree/main/keyboards) folder, download that file and use keyman to install it on your system (keyman should be the default handler for .kmp file). Currently this is only applicable to the Belgian "azerty be" layout.
 * Otherwise
-  ** download the cldrbuilder
+  ** download the entire cldrbuilder folder with subfolders from this repository
   ** modify the xml file sources/localized.xml according to your needs
   ** modify the global constants in code/buildCldrHiero.py (if needed)
   ** run code/buildCldrHiero.py , which will generate an xml file in the output folder
