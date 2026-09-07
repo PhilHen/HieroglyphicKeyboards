@@ -55,7 +55,7 @@ In general, individual signs can be entered:
 # Format controls
 | Keyboard keys (azerty be) | Result |
 | --- | --- |
-| \<v\> then \<SPACE\><br/>/vh then \<SPACE\><br/>vj/ then \<SPACE\><br/> vj then \<SPACE\><br/>\<:\> then \<SPACE\>|vertical joiner (":" in JSesh)|
+| \<v\> then \<SPACE\><br/>/vj then \<SPACE\><br/>vj/ then \<SPACE\><br/> vj then \<SPACE\><br/>\<:\> then \<SPACE\><br/>\<:\> then \<SPACE\>|vertical joiner (":" in JSesh)|
 
 
 
