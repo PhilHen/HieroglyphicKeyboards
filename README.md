@@ -84,7 +84,7 @@ Inserts can be done at 7 positions, as illustrated below. Note that it is prefer
 | /bs then \<SPACE\><br/>bs/ then \<SPACE\>|insert the sign that follows at the bottom start (i.e. bottom left if writing left-to-right) of the sign that precedes the cursor|
 | /mi then \<SPACE\><br/>mi/ then \<SPACE\>|insert the sign that follows at the bottom of the sign that precedes the cursor|
 | be then \<SPACE\><br/>/be then \<SPACE\><br/>be/ then \<SPACE\>|insert the sign that follows at the bottom end (i.e. bottom right if writing left-to-right) of the sign that precedes the cursor|
-| om then \<SPACE\><br/>/om then \<SPACE\><br/>om/ then \<SPACE\>|overla𓏭(stack) the sign that follows over the sign that precedes the cursor|
+| om then \<SPACE\><br/>/om then \<SPACE\><br/>om/ then \<SPACE\>|overlay (stack) the sign that follows over the sign that precedes the cursor|
 
 
 TO DO:
