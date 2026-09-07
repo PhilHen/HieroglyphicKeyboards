@@ -25,12 +25,12 @@ What follows is based on the Azerty Belgian keyboard layout.
 | Keyboard keys (azerty be) | Result |
 | --- | --- |
 | A1 then \<SPACE\> | 𓀀 |
-| \<ALTGR\> + \<SPACE\> | Convert hieroglyphic sign to Gardiner code |
-| \<ALTGR\> + \<)\> | Previous sign (preceding sign must be a hieroglyph) |
-| \<ALTGR\> + \<-\> | Next sign (preceding sign must be a hieroglyph) |
-| \<SHIFT\> + \<ALTGR\> + \<,\> | Previous Gardiner group (preceding sign must be a hieroglyph) |
-| \<SHIFT\> + \<ALTGR\> + \<;\> | Next Gardiner group (preceding sign must be a hieroglyph) |
-| \<ALTGR\> + \<=> | Rotate clockwise (preceding sign must be a hieroglyph) |
+| \<ALTGR\> + \<SPACE\> | Convert hieroglyph to Gardiner code  (sign before cursor must be a hieroglyph) |
+| \<ALTGR\> + \<)\> | Previous sign (sign before cursor must be a hieroglyph) |
+| \<ALTGR\> + \<-\> | Next sign (sign before cursor must be a hieroglyph) |
+| \<SHIFT\> + \<ALTGR\> + \<,\> | Previous Gardiner group (sign before cursor must be a hieroglyph) |
+| \<SHIFT\> + \<ALTGR\> + \<;\> | Next Gardiner group (sign before cursor must be a hieroglyph) |
+| \<ALTGR\> + \<=> | Rotate clockwise (sign before cursor must be a hieroglyph) |
 
 In general, individual signs can be entered:
 * using their Gardiner code followed by \<SPACE\> (in some cases, hitting \<SPACE\> more than once lets one access variants)
