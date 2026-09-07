@@ -86,7 +86,15 @@ Inserts can be done at 7 positions, as illustrated below. Note that it is prefer
 | be then \<SPACE\><br/>/be then \<SPACE\><br/>be/ then \<SPACE\>|insert the sign that follows at the bottom end (i.e. bottom right if writing left-to-right) of the sign that precedes the cursor|
 | om then \<SPACE\><br/>/om then \<SPACE\><br/>om/ then \<SPACE\>|overlay (stack) the sign that follows over the sign that precedes the cursor|
 
+## Blank, lost and damaged signs
 
+### Blank signs
+| Keyboard keys (azerty be) | Result |
+| --- | --- |
+
+### Lost signs
+
+### Damaged signs
 TO DO:
 * transliteration
 * blank signs/lacunae
