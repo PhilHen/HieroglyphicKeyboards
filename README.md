@@ -104,7 +104,7 @@ Signs are shaded quarter by quarter. Quarters are numbered 1 to 4 (see image bel
 
  <img src="https://raw.githubusercontent.com/PhilHen/HieroglyphicKeyboards/refs/heads/main/images/4quadrants.png"  />
 
-In order to shade quarters 1, 2 and 4 of sign A1, you can
+In order to shade quarters 1, 2 and 4 of sign A1, you can type
  * either A1 \<SPACE\> /124 \<SPACE\>
  * or A1 \<SPACE\> /1 \<SPACE\> /2 \<SPACE\> /4 \<SPACE\> (or any other sequence).
 
