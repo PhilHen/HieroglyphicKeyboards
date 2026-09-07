@@ -1,7 +1,13 @@
 # HieroglyphicKeyboards
-Ensemble d'outils permettant la création de claviers hiéroglyphiques keyman (sur la base du clavier d'Andrew Glass). 
-L'état actuel permet:
-* de créer des claviers basés sur des dispositions non-qwerty (par exemple azerty-belge)
-* d'ajouter des raccourcis ressemblant à ceux de JSesh, pour l'introduction phonétique de hiéroglyphiques (et non exclusivement via le code Gardiner). Ceci n'était possible jusqu'ici que pour les unilitères et quelques autres cas.
+Set of tools to facilitate the creation of keymnan hieroglyphic keyboards (based on Andrew Glass' qwerty hieroglyphic keyboard)
+Current version supports :
+* creating keyboards based on non-qwerty layouts (for instance Belgian azerty)
+* using JSesh-cycles based on phonetic shortcuts (such as aA -> 𓉻->𓃘 -> 𓉼 -> 𓉿 -> 𓉻 )
+* adding user-defined shortcuts
+
+
+# Requirements
+* "Egyptian Text" font to be found at https://github.com/microsoft/font-tools/
+* keyman ( https://keyman.com/fr/ )
 
 
