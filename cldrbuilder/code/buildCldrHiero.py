@@ -92,14 +92,15 @@ cycles = {k: v for k, v in sorted(d.items(), key=lambda item: item[0].upper())} 
 outputTSVFilePath=os.path.join(base_dir,OUTPUTTSV)
 sOut=""
 for a,dd in cycles.items():
-        lDisplay=[a]
-        for p in dd:
-                if p in dGardiner:
-                        lDisplay.append(p + " " + dGardiner[p])
-                else:
-                        lDisplay.append(p)
-        sDisplay="\t".join(lDisplay)
-        sOut+=sDisplay+"\n"
+        if len(dd)>0:
+                lDisplay=[a]
+                for p in dd:
+                        if p in dGardiner:
+                                lDisplay.append(p + " " + dGardiner[p])
+                        else:
+                                lDisplay.append(p)
+                sDisplay="\t".join(lDisplay)
+                sOut+=sDisplay+"\n"
 f = open(outputTSVFilePath, "w", encoding="utf-8")
 f.write(sOut)
 f.close()
