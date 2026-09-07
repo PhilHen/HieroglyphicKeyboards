@@ -17,8 +17,8 @@ Current version supports :
 # How does it work?
 Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format controls ( https://unicode.org/charts/PDF/U13430.pdf ), the keystrokes listed below act on the character (latin or hieroglyphic) immediately preceding the cursor.
 What follows is based on the Azerty Belgian keyboard layout. 
-* + means simultaneous keypresses
-* then means successive keypresses
+* \+ means simultaneous keypresses
+* "then" means successive keypresses
 
 ## Gardiner signs
 
