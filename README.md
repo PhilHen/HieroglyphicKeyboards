@@ -17,8 +17,8 @@ Current version supports :
    * modify the xml file sources/localized.xml according to your needs
    * modify the global constants in code/buildCldrHiero.py (if needed)
    * run code/buildCldrHiero.py , which will generate an xml file in the output folder
-   * open keyman developer (windows only), new project, LDML Keyboard - paste the generated xml file
-   * compile and install
+   * open keyman developer (windows only), new project, LDML Keyboard - paste the contents of the generated xml file
+   * using keyman developer, compile the keyboard and install it
 
 It IS possible to build the keyboard on a linux or apple computer, using [keyman developer command tools](https://help.keyman.com/developer/14.0/guides/command-line)
   
@@ -27,8 +27,6 @@ It IS possible to build the keyboard on a linux or apple computer, using [keyman
 # How to use the keyboard
 Once the keyboard is installed, switch to that keyboard (refer to the [keyman documentation](https://help.keyman.com/)).
 
-Signs encoding is similar to JSesh. Except for Egyptian hieroglyph format controls (see below), the keystrokes listed below act on the character (latin or hieroglyphic) immediately preceding the cursor.
-
-Specific keys are specific to the hardware layout:
+Keys are specific to the hardware layout, and usage instructions can therefore be found in layout-specific help pages
 * [azerty-be instructions](https://github.com/PhilHen/HieroglyphicKeyboards/wiki/Using-the-azerty%E2%80%90be-keyboard)
 * qwerty-us instructions (TO BE COMPLETED)
