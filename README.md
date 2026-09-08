@@ -1,7 +1,7 @@
 # HieroglyphicKeyboards
 Set of tools to facilitate the creation of keyman hieroglyphic keyboards (based on Andrew Glass' qwerty hieroglyphic keyboard - the tools in this repository only slightly expand and internationalize Andrew's work)
 Current version supports :
-* creating keyboards based on non-qwerty layouts (for instance Belgian azerty)
+* creating keyboards based on non-qwerty layouts (for instance Belgian AZERTY)
 * using JSesh-cycles based on phonetic shortcuts (such as aA -> 𓉻->𓃘 -> 𓉼 -> 𓉿 -> 𓉻 )
 * adding user-defined shortcuts
 
@@ -11,7 +11,7 @@ Current version supports :
 * keyman ( https://keyman.com/ ) - compatible with Mac, Windows & Linux
 
 # Installation
-* If there is a .kmp file matching your physical keyboard in the [keyboards](https://github.com/PhilHen/HieroglyphicKeyboards/tree/main/keyboards) folder, download that file and use keyman to install it on your system (keyman should be the default handler for .kmp file). Currently this is only applicable to the Belgian "azerty be" layout.
+* If there is a .kmp file matching your physical keyboard in the [keyboards](https://github.com/PhilHen/HieroglyphicKeyboards/tree/main/keyboards) folder, download that file and use keyman to install it on your system (keyman should be the default handler for .kmp file). Currently this is only applicable to the Belgian "azerty be" layout (https://www.kbdlayout.info/kbdbe).
 * Otherwise you will need to install Keyman developer, to modify the localized keyboard definition and to run a python script.
    * download the entire cldrbuilder folder with subfolders from this repository
    * modify the xml file sources/localized.xml according to your needs
