@@ -976,8 +976,8 @@
             <transform from="o24a\m{C}"  to="\u{13275}" />
             <transform from="O25a\m{C}"  to="\u{13277}" />
             <transform from="o25a\m{C}"  to="\u{13277}" />
-            <transform from="O29a\m{C}"  to="\u{1327C}" />
-            <transform from="o29a\m{C}"  to="\u{1327C}" />
+            <transform from="O29a\m{C}"  to="\u{1327B}\u{FE00}" />
+            <transform from="o29a\m{C}"  to="\u{1327B}\u{FE00}" />
             <transform from="O30a\m{C}"  to="\u{1327E}" />
             <transform from="o30a\m{C}"  to="\u{1327E}" />
             <transform from="O33a\m{C}"  to="\u{13282}" />
@@ -6182,10 +6182,8 @@
             <transform from="\u{1327A}\m{Previous}" to="\u{13279}" />
             <transform from="\u{1327A}\m{Next}"     to="\u{1327B}" />
             <transform from="\u{1327B}\m{Previous}" to="\u{1327A}" />
-            <transform from="\u{1327B}\m{Next}"     to="\u{1327C}" />
-            <transform from="\u{1327C}\m{Previous}" to="\u{1327B}" />
-            <transform from="\u{1327C}\m{Next}"     to="\u{1327D}" />
-            <transform from="\u{1327D}\m{Previous}" to="\u{1327C}" />
+            <transform from="\u{1327B}\m{Next}"     to="\u{1327D}" />
+            <transform from="\u{1327D}\m{Previous}" to="\u{1327B}" />
             <transform from="\u{1327D}\m{Next}"     to="\u{1327E}" />
             <transform from="\u{1327E}\m{Previous}" to="\u{1327D}" />
             <transform from="\u{1327E}\m{Next}"     to="\u{1327F}" />
