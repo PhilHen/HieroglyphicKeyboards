@@ -54,12 +54,17 @@ sg=t.findall('.//transform')
 for g in sg:
         #only take those with \u in the "to"
         if "\\u" in g.get("to"):
-                unichar=chr(int(re.findall(r'\\u{(.*)}',g.get("to"))[0],16))
+                l=re.findall(r'\\u\{([0-9A-Fa-f]+)\}', g.get("to"))
+                unichars=''.join([chr(int(c,16)) for c in l])
+                #unichar=chr(int(re.findall(r'\\u{(.*)}',g.get("to"))[0],16))
                 fromCode = g.get("from").replace(r'\m{C}','')
-                dGardiner[fromCode]=unichar
-                dGardiner[fromCode.upper()]=unichar
+                #dGardiner[fromCode]=unichar
+                #dGardiner[fromCode.upper()]=unichar
+                dGardiner[fromCode]=unichars
+                dGardiner[fromCode.upper()]=unichars
                 if fromCode.startswith("AA"):
-                        dGardiner["Aa"+fromCode[2:]]=unichar
+                        dGardiner["Aa"+fromCode[2:]]=unichars
+                        #dGardiner["Aa"+fromCode[2:]]=unichar
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 # Compute the JSesh "cycles", i.e. the various Gardiner codes associated with a phonetic code
 d = collections.defaultdict(list)
@@ -185,15 +190,18 @@ for xml_file in pathlib.Path(os.path.join(base_dir,EXTENSIONSFOLDER)).glob('*.ts
                 transformsToAdd[x[0]]=x[1]
 
 
+def unicodeToUHex(s):
+        return ''.join(["\\u{"+hex(ord(kk))[2:]+"}" for kk in list(s)])
+
 #add the cycles
 for k,v in cycles.items():
         if len(v)==1:
-                transformsToAdd[k+"\\m{C}"]="\\u{"+hex(ord(dGardiner[v[0]]))[2:]+"}"
+                transformsToAdd[k+"\\m{C}"]=unicodeToUHex(dGardiner[v[0]])
         elif len(v)>1:
-                transformsToAdd[k+"\\m{C}"]="\\u{"+hex(ord(dGardiner[v[0]]))[2:]+"}\m{cycle"+k+"}"
+                transformsToAdd[k+"\\m{C}"]=unicodeToUHex(dGardiner[v[0]])+"\m{cycle"+k+"}"
                 for i in range(0,len(v)-1):
-                        transformsToAdd["\\u{"+hex(ord(dGardiner[v[i]]))[2:]+"}\m{cycle"+k+"}\m{C}"]="\\u{"+hex(ord(dGardiner[v[i+1]]))[2:]+"}\m{cycle"+k+"}"
-                transformsToAdd["\\u{"+hex(ord(dGardiner[v[len(v)-1]]))[2:]+"}\m{cycle"+k+"}\m{C}"]="\\u{"+hex(ord(dGardiner[v[0]]))[2:]+"}\m{cycle"+k+"}"      
+                        transformsToAdd[unicodeToUHex(dGardiner[v[i]])+"\m{cycle"+k+"}"+"\m{C}"]=unicodeToUHex(dGardiner[v[i+1]])+"\m{cycle"+k+"}"
+                transformsToAdd[unicodeToUHex(dGardiner[v[len(v)-1]])+"\m{cycle"+k+"}"+"\m{C}"]=unicodeToUHex(dGardiner[v[0]])+"\m{cycle"+k+"}"
                 
 
 ##order those transformsToAdd by decreasing length
